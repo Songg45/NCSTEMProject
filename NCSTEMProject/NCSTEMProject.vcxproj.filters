@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="NCSTEMProject.cpp">
+    <ClCompile Include="NCSTEMProjectClient.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
