@@ -6,7 +6,7 @@ YEAR 1 -
 
    Phase 1:
    
-         Build UDP server/client to communicate via broadcast messages on an 802.11 network
+         Build UDP server/client to communicate via broadcast messages on an 802.11 network - COMPLETED
         
    Phase 2:
    
