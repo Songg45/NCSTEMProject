@@ -25,7 +25,7 @@ YEAR 2 -
         
    Phase 5:
    
-         Build a dedicated SOC (System On Chip) for car's communication
+         Build a dedicated SoC (System on Chip) for car's communication
         
    Phase 6:
    
