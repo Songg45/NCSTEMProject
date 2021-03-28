@@ -141,6 +141,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="NCSTEMProjectClient.cpp" />
+    <ClCompile Include="GetGPSCoords.cpp" />
+    <ClCompile Include="ConvertGPSCoords.cpp" />
+    <ClCompile Include="Serial.cpp" />
+    <ClCompile Include="CheckDistance.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GetGPSCoords.h" />
+    <ClInclude Include="ConvertGPSCoords.h" />
+    <ClInclude Include="CheckDistance.h" />
+    <ClInclude Include="Serial.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

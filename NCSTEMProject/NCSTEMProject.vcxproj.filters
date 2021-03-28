@@ -18,5 +18,31 @@
     <ClCompile Include="NCSTEMProjectClient.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="GetGPSCoords.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvertGPSCoords.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Serial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckDistance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GetGPSCoords.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConvertGPSCoords.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Serial.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckDistance.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
