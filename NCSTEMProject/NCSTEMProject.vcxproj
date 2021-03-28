@@ -150,7 +150,6 @@
     <ClInclude Include="GetGPSCoords.h" />
     <ClInclude Include="ConvertGPSCoords.h" />
     <ClInclude Include="CheckDistance.h" />
-    <ClInclude Include="Header.h" />
     <ClInclude Include="Serial.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

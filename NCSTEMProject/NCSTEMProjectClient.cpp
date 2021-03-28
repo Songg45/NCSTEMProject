@@ -47,11 +47,15 @@ int _tmain(int argc, _TCHAR* argv[])
     double AvgGPSCoordsLocalNS = 0;
     double AvgGPSCoordsLocalEW = 0;
 
+    double FirstDistance = 0;
+    double SecondDistance = 0;
+
     std::string AvgGPSCoordsSent;
     std::string AvgGPSCoordsLocal;
 
     int GPSCoordCounter = 1;
     int TryCounter = 0;
+    int DistanceCounter = 1;
     bool PlayAlert = false;
 
     //Initializing winsock
@@ -197,20 +201,15 @@ int _tmain(int argc, _TCHAR* argv[])
                     AvgGPSCoordLocalNS2 = GPSNSConverted;
                     GPSCoordCounter = 1;
 
-                    AvgGPSCoordsSentEW = (AvgGPSCoordSentEW1 + AvgGPSCoordSentEW2) / 2;
-                    AvgGPSCoordsSentNS = (AvgGPSCoordSentNS1 + AvgGPSCoordSentNS2) / 2;
-
-                    AvgGPSCoordsLocalEW = (AvgGPSCoordLocalEW1 + AvgGPSCoordLocalEW2) / 2;
-                    AvgGPSCoordsLocalNS = (AvgGPSCoordLocalNS1 + AvgGPSCoordLocalNS2) / 2;
-
                     CheckDistance(AvgGPSCoordSentEW1, AvgGPSCoordSentEW2, AvgGPSCoordSentNS1, AvgGPSCoordSentNS2, AvgGPSCoordsSentNS, AvgGPSCoordsSentEW, 
                         AvgGPSCoordLocalEW1, AvgGPSCoordLocalEW2, AvgGPSCoordLocalNS1, AvgGPSCoordLocalNS2,
                         AvgGPSCoordsLocalNS, AvgGPSCoordsLocalEW, 
-                        PlayAlert);
+                        PlayAlert, FirstDistance, SecondDistance, DistanceCounter);
 
                     if (PlayAlert)
                     {
 
+                        printf("Warning! Vehicle detected\r\n");
                         Beep(900, 800);
 
                     }
